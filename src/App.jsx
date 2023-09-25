@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import About from '../src/pages/About';
 import Glogsin from '../src/pages/Glogsin';
 import Spsignup from "../src/pages/Spsignup";
+import Usignup from "../src/pages/Usignup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path='/glogsin' element={<Glogsin/>} />
           <Route path='/spsignup' element={<Spsignup/>} />
+          <Route path='/usignup' element={<Usignup/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
         <Footer/>

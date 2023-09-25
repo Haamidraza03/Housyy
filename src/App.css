@@ -13,6 +13,10 @@
     font-weight: bold !important;
 }
 
+#heroimg{
+  background-image: url("../Images/heroimg.jpg") !important;
+}
+
 input:focus{
   outline-color: rgb(255, 183, 0);
 }

@@ -1,13 +1,12 @@
 import React from 'react'
 
-function Spsignup() {
+function Usignup() {
   return (
     <div className="row justify-content-center px-5" style={{marginTop:"100px"}}>
         <div className="col-md-3 bg-white rounded-4 pt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
             <h1 className='text-center mb-3'>Sign <span style={{color:'rgb(255, 183, 0)'}}>Up</span></h1>
             <center><input type="text" id='name' className='rounded-4 mb-3 fs-4 border' placeholder='  Enter your Name' /><br /></center> 
             <center><input type="email" id='email' className='rounded-4 mb-3 fs-4 border' placeholder='  Enter your Email' /><br /></center> 
-            <center><input type="text" id='prof' className='rounded-4 mb-3 fs-4 border' placeholder='  Enter your Profession' /><br /></center> 
             <center><input type="number" id='phone' className='rounded-4 mb-3 fs-4 border' placeholder='  Phone Number' /><br /></center> 
             <center><input type="password" id='password' className='rounded-4 mb-3 fs-4 border' placeholder='  Enter Password' /><br /></center> 
             <center><input type="password" id='cpassword' className='rounded-4 mb-4 fs-4 border' placeholder='  Confirm Password' /><br /></center> 
@@ -18,4 +17,4 @@ function Spsignup() {
   )
 }
 
-export default Spsignup
+export default Usignup
