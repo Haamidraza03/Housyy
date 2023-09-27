@@ -5,8 +5,10 @@ function About() {
   return (
     <div>
       <Navbar/>
-      <h1 className='text-white' style={{marginTop:"80px"}}>This is About page.</h1>
+      <div style={{marginTop:"80px"}} className='fs-1 text-white'> This is About Page.</div>
+
     </div>
+    
   )
 }
 
