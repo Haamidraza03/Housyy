@@ -9,12 +9,13 @@ function BasicExample() {
   return (
       <Navbar expand="lg" className="bg-body-tertiary fixed-top" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand className='fs-5 ms-0'><img src={Logo} alt="logo" className="img-fluid rounded-circle ms-0 me-2" width="35"/>Housyy - House Service Providers</Navbar.Brand>
+        <Navbar.Brand className='fs-5 ms-0'><Link to="/"><img src={Logo} alt="logo" className="img-fluid rounded-circle ms-0 me-2" width="35"/></Link>Housyy</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto m-0">
             <Link to="/" className='fs-5 nav-link active me-3'>Home</Link>
             <Link to="/about" className='fs-5 nav-link active me-3'>About Us</Link>
+            <Link to="/contact" className='fs-5 nav-link active me-3'>Contact Us</Link>
             <Link to="/glogsin" className='fs-5 nav-link active'>Login/SignUp</Link>
           </Nav>
         </Navbar.Collapse>

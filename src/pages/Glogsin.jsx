@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope,faUser,faUserTie } from '@fortawesome/free-solid-svg-icons';
+import {faUser,faUserTie } from '@fortawesome/free-solid-svg-icons';
 import {useTypewriter,Cursor} from "react-simple-typewriter";
 import {Link} from 'react-router-dom';
 
