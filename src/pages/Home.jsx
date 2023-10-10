@@ -25,13 +25,13 @@ function Home() {
        </div>
        <h1 className="fs1 text-center text-white mt-5 mb-4" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">What We Offer</h1>
        <div className="row justify-content-evenly px-5">
-        <div className="col-md-3 border rounded-2 text-white p-2 mb-4 justify-content-evenly" data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out">
+        <div className="col-md-3 border rounded-2 text-white p-2 mb-4 justify-content-evenly" id='para1' data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis dolorem ullam, cumque eveniet maiores nulla deserunt officia, veniam deleniti perspiciatis quibusdam facilis magnam ipsum consequatur! Ex quasi atque et nam?
         </div>
-        <div className="col-md-3 border rounded-2 text-white p-2 mb-4 justify-content-evenly" data-aos="flip-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
+        <div className="col-md-3 border rounded-2 text-white p-2 mb-4 justify-content-evenly" id='para1'data-aos="flip-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis dolorem ullam, cumque eveniet maiores nulla deserunt officia, veniam deleniti perspiciatis quibusdam facilis magnam ipsum consequatur! Ex quasi atque et nam?
         </div>
-        <div className="col-md-3 border rounded-2 text-white p-2 mb-4 justify-content-evenly" data-aos="flip-left" data-aos-duration="2500" data-aos-easing="ease-in-out">
+        <div className="col-md-3 border rounded-2 text-white p-2 mb-4 justify-content-evenly" id='para1'data-aos="flip-left" data-aos-duration="2500" data-aos-easing="ease-in-out">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis dolorem ullam, cumque eveniet maiores nulla deserunt officia, veniam deleniti perspiciatis quibusdam facilis magnam ipsum consequatur! Ex quasi atque et nam?
         </div>
        </div>
