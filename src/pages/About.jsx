@@ -2,6 +2,9 @@ import React from 'react'
 import Navbar from "../components/Navbar"
 import img1 from "./deepika-mam.jpg"
 import img2 from "./hrk.jpg"
+import img3 from "./sc.png"
+import img4 from "./db.png"
+import img5 from "./ag.png"
 
 function About() {
   return (
@@ -16,34 +19,34 @@ function About() {
       </div>
       <div className="text-center text-white fs-1 mt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">Our Team</div>
       <div className="row justify-content-center p-3 text-white mt-2">
-        <div className="col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
-          <center><img src={img1} alt="mam" className='img-fluid rounded-circle' /></center> 
+        <div className="col-md-3 mt-3 fs-5" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <center><img src={img1} alt="mam" className='img-fluid rounded-circle shadow' /></center> 
           <center><h4 className='mt-2'>Ms. Deepika Nadar</h4></center>
           <p id='para1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus velit accusamus soluta eum, quis labore iste debitis tempora fugit officiis incidunt in repudiandae laudantium at sunt delectus sequi alias quod.</p>
         </div>
       </div>
       <div className="row justify-content-evenly text-white mt-2 p-3">
-        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <center><img src={img2} alt="std1" className='img-fluid rounded-circle' /></center>
+        <div className="col-md-3 fs-5" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <center><img src={img2} alt="std1" className='img-fluid rounded-circle shadow' /></center>
           <center><h4 className='mt-2'>Haamid Raza Kazi</h4></center>
-          <p id='para1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo incidunt magni voluptate debitis totam minima accusantium eos saepe dolores dignissimos.</p>
+          <p id='para1'>A passionate Web Developer and a student, currently pursuing B.E Computer Engineering from St. John College Of Engineering and Management.</p>
         </div>
-        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
-          <center><img src="" alt="std2" className='img-fluid rounded-circle' /></center>
+        <div className="col-md-3 fs-5" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <center><img src={img3} alt="std2" className='img-fluid rounded-circle shadow' /></center>
           <center><h4 className='mt-2'>Sakshi Choudhary</h4></center>
-          <p id='para1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo incidunt magni voluptate debitis totam minima accusantium eos saepe dolores dignissimos.</p>
+          <p id='para1'>A passionate Web Developer and a student, currently pursuing B.E Computer Engineering from St. John College Of Engineering and Management.</p>
         </div>
       </div>
       <div className="row justify-content-evenly text-white mt-4 p-3">
-        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
-          <center><img src="" alt="std3" className='img-fluid rounded-circle' /></center>
+        <div className="col-md-3 fs-5" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          <center><img src={img4} alt="std3" className='img-fluid rounded-circle shadow' /></center>
           <center><h4 className='mt-2'>Disha Bhandare</h4></center>
-          <p id='para1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo incidunt magni voluptate debitis totam minima accusantium eos saepe dolores dignissimos.</p>
+          <p id='para1'>A passionate Web Developer and a student, currently pursuing B.E Computer Engineering from St. John College Of Engineering and Management.</p>
         </div>
-        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out">
-          <center><img src="" alt="std4" className='img-fluid rounded-circle' /></center>
+        <div className="col-md-3 fs-5" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out">
+          <center><img src={img5} alt="std4" className='img-fluid rounded-circle shadow' /></center>
           <center><h4 className='mt-2'>Anjali Gupta</h4></center>
-          <p id='para1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo incidunt magni voluptate debitis totam minima accusantium eos saepe dolores dignissimos.</p>
+          <p id='para1'>A passionate Web Developer and a student, currently pursuing B.E Computer Engineering from St. John College Of Engineering and Management.</p>
         </div>
       </div>
 
