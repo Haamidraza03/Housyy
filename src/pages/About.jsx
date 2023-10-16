@@ -22,7 +22,7 @@ function About() {
         <div className="col-md-3 mt-3 fs-5" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
           <center><img src={img1} alt="mam" className='img-fluid rounded-circle shadow' /></center> 
           <center><h4 className='mt-2'>Ms. Deepika Nadar</h4></center>
-          <p id='para1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus velit accusamus soluta eum, quis labore iste debitis tempora fugit officiis incidunt in repudiandae laudantium at sunt delectus sequi alias quod.</p>
+          <p id='para1'>Assistant Professor at St. John College of Engineering and Management.</p>
         </div>
       </div>
       <div className="row justify-content-evenly text-white mt-2 p-3">
