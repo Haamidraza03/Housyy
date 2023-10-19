@@ -10,6 +10,8 @@ import Spsignup from "../src/pages/Spsignup";
 import Usignup from "../src/pages/Usignup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from './pages/Contact';
+import Ulogin from './pages/Ulogin';
+import Splogin from './pages/Splogin';
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
           <Route path='/spsignup' element={<Spsignup/>} />
           <Route path='/usignup' element={<Usignup/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/ulogin' element={<Ulogin/>} />
+          <Route path='/splogin' element={<Splogin/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
         <Footer/>
