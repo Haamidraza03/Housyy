@@ -17,6 +17,10 @@
     font-weight: bold !important;
 }
 
+.btn2:hover{
+  font-weight: bolder !important;
+}
+
 #heroimg{
   background-image: url("../Images/heroimg.jpg") !important;
 }
