@@ -54,6 +54,10 @@ input:focus{
   #hsp{
     display: none !important;
   }
+
+  #sp{
+    font-size: 35px !important;
+  }
 }
 
 .App-header {
