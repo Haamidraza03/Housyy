@@ -11,6 +11,10 @@
   text-align: justify !important;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 .btn1:hover{
   color: whitesmoke !important;
     background-color: black !important;
@@ -26,6 +30,10 @@
 }
 
 input:focus{
+  outline-color: rgb(255, 183, 0);
+}
+
+textarea:focus{
   outline-color: rgb(255, 183, 0);
 }
 
