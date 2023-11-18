@@ -22,7 +22,7 @@ function Contact() {
 
         if(username.length>3 && useremail.length>3 && userquery.length>3)
             {
-                fetch('https://housyy-c8bc8-default-rtdb.firebaseio.com/user.json',{
+                fetch('https://housyy---contact-default-rtdb.firebaseio.com/user.json',{
                 method:'post',
                 body:JSON.stringify(user)
                 }).then(()=>
