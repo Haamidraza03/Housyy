@@ -12,6 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from './pages/Contact';
 import Ulogin from './pages/Ulogin';
 import Splogin from './pages/Splogin';
+import Sphome from './pages/Sphome';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
           <Route path='/ulogin' element={<Ulogin/>} />
           <Route path='/splogin' element={<Splogin/>} />
+          <Route path='/sphome' element={<Sphome/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
         <Footer/>
